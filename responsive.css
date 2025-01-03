@@ -1,0 +1,22 @@
+/* header section */
+@media only screen and (max-width: 800px){
+#partical.js{
+  display: none;
+}
+}
+@media only screen and (max-width: 600px) {
+   .container {
+      padding: 24px;
+    }
+       .heroctn {
+      padding: 54px 54px 0px 54px;
+    }
+    .heroctn h1 {
+      font-size: 22px;
+      padding-bottom: 20px;
+      font-weight: 700;
+  }
+ .w-50{
+ width: 100% !important;
+  }
+  }
