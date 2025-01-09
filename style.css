@@ -80,7 +80,7 @@ p{
 
 /*  */
 #nav_bar_main{
-  position: fixed;
+  position: sticky;
   width: 100%;
   z-index: 9999;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -135,25 +135,14 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
 
 
 /* navbar css */
-.herosec{
- /* height: 70vh; */
-  /* background: radial-gradient(157.88% 238.16% at 124.55% 54.93%, #000715 0%, #004FF9 100%); warning: gradient uses a rotation that is not supported by CSS and may not behave as expected
-  */
-  /* background-color: #004FF9; */
-}
+
 .heroimg img{
   width: 100%;
   background-position: right;
   background-size:contain;
   background-repeat: no-repeat;
 }
-.hero{
-  margin-top: 80px;
-  /* background-image: url(./asset/image/Asset\ 1@4x-8.png);
-  background-position: right;
-  background-size:contain;
-  background-repeat: no-repeat; */
-}
+
 .heroctn{
   padding-left: 100px;
 }
@@ -171,15 +160,6 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
 }
 
 
-/* section hero end */
-/* section 3 start */
-.sec_features{
-  /* background-image: url(./asset/image/h1-bg01.jpg); */
-  /* background-color: #00041f; */
-}
-/* .sec_features p{
-color: rgb(191, 191, 191);
-} */
 .sec_features svg{
 width: 80px;
 padding: 24px 24px;
@@ -252,9 +232,7 @@ display: flex;
   font-size: 24px;
 }
 
-/* .nav-tabs{
-  flex-direction: column;
-} */
+
 
 .tab-content{
   h6{
@@ -475,7 +453,7 @@ textarea.form-control:focus {
 
 /* footer */
 .footer {
-  background:  linear-gradient(99.93deg, #000000 1.55%, #004FF9 128.26%);
+  background: #0238ae;
 
   color: white;
 
@@ -512,6 +490,9 @@ textarea.form-control:focus {
   }
   .copyright p {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  i{
+    padding-right: 10px;
   }
 }
 
