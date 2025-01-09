@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 .faculty-glyphic-regular {
   font-family: "Faculty Glyphic", serif;
   font-weight: 400;
@@ -10,19 +10,26 @@ body{
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family:  "Roboto", serif;
-   line-height: 24px;
+  font-family: "Manrope", serif;
+  font-weight: 500;
+   /* line-height: px; */
 }
 h3{
   font-family: "Faculty Glyphic";
   font-size: 40px;
   text-transform: capitalize;
   font-weight: 700;
-  background: radial-gradient(87.88% 175.16% at 64.55% 66.93%, #004FF9 0%, #000000 100%) ;
+  background:#004FF9;
  -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
 text-fill-color: transparent;
+}
+h2{
+  font-family: "Faculty Glyphic";
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 700;
 }
 p{
   color: rgb(93, 93, 93);
@@ -30,7 +37,7 @@ p{
 }
 /* btn */
 .btn{
-  background: radial-gradient(87.88% 175.16% at 64.55% 66.93%, #004FF9 0%, #000000 100%);
+  background: #004FF9;
   color: white;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
   outline: 1px solid;
@@ -107,104 +114,95 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
 
 /* navbar css */
 .herosec{
- /* height: 100vh; */
-  background: radial-gradient(157.88% 238.16% at 124.55% 54.93%, #004FF9 0%, #000000 100%); /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
- 
+ /* height: 70vh; */
+  /* background: radial-gradient(157.88% 238.16% at 124.55% 54.93%, #000715 0%, #004FF9 100%); warning: gradient uses a rotation that is not supported by CSS and may not behave as expected
+  */
+  /* background-color: #004FF9; */
+}
+.heroimg img{
+  width: 100%;
+  background-position: right;
+  background-size:contain;
+  background-repeat: no-repeat;
 }
 .hero{
   margin-top: 80px;
+  /* background-image: url(./asset/image/Asset\ 1@4x-8.png);
+  background-position: right;
+  background-size:contain;
+  background-repeat: no-repeat; */
 }
 .heroctn{
   padding-left: 100px;
 }
 .heroctn p{
-  font-size: 18px;
+  /* font-size: 24px; */
   padding-bottom: 10px;
-  color: white;
+  line-height: 32px;
+  /* color: white; */
 }
 .heroctn h1{
-  font-size: 40px;
+  font-size: 42 px;
   padding-bottom: 20px;
   font-weight: 700;
-  color: white;
+  /* color: white; */
 }
-/* partical.js */
-canvas{
-  height: 100vh;
-}
-#particles-js {
-  position: absolute;
-  width: 100%;
-   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  /* z-index: 9999; */
-  top: 0;
- 
-} /* ---- stats.js ---- */
-.count-particles {
-    position: absolute;
-    left: 0;
-    z-index: 1;
- }
-.js-count-particles {
-  font-size: 1.1em;
-}
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-.count-particles {
-  border-radius: 0 0 3px 3px;
-}
-.herobtn.lap{
-  position: relative;
-   z-index: 1;
-}
-.herobtn .btn{
-    background: none !important;
-        outline: 2px solid ;
-}
+
 
 /* section hero end */
 /* section 3 start */
+.sec_features{
+  /* background-image: url(./asset/image/h1-bg01.jpg); */
+  /* background-color: #00041f; */
+}
+/* .sec_features p{
+color: rgb(191, 191, 191);
+} */
 .sec_features svg{
-width: 100px;
-padding: 10px 24px;
+width: 80px;
+padding: 24px 24px;
+margin: 0 16px;
+background-color: white;
+border-radius: 100%;
 }
 .features_box{
   border-radius: 8px;
   padding: 50px 10px;
-   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   box-shadow: rgba(121, 121, 121, 0.585) 0px 1px 4px;
    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   transition: linear;
+   /* color: white; */
 }
 .features_box:hover{
-  box-shadow: rgb(0, 15, 149) 0px 0px 10px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 10px;
    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: #004FF9;
+}
+.features_box:hover p{
+  color: white;
 }
 .sec_features svg:hover{
   color: white;
 }
-.sec_features h3{
+.sec_features h2{
   font-size: 32px;
   font-weight: 700;
+  /* color: white !important; */
 }
+/*about us  */
 
 /*  */
+.nav-tabs{
+  flex-direction: column;
+}
 .nav-tabs .nav-link{
 display: flex;
 flex-direction: column;
 align-items: center;
 padding: 21px 24px;
-width: 237px;
-height: 150px;
+width: 100%;
+height: auto;
 border-radius: 16px 16px 0px 0px;
 }
 .nav-tabs .nav-link.active{
@@ -212,25 +210,26 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 21px 24px;
-width: 237px;
-height: 150px;
+width: 100%;
+height: auto;
 background: radial-gradient(157.88% 238.16% at 124.55% 54.93%, #004FF9 0%, #000000 100%);
-border-radius: 16px 16px 0px 0px;
+border-radius: 16px 16px 16px 16px;
 color: white;
 }
 .service_sec ul li button{
 display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .service_sec ul li {
   align-items: center;
     display: flex;
     justify-content: center;
-
+    margin-bottom: 16px;
 }
 .service_sec ul li i{
-  font-size: 50px;
+  font-size: 24px;
 }
 /* section services */
 .our_process{
@@ -241,7 +240,7 @@ display: flex;
     border: white;
 }
 .card img{
-  width: 30%;
+  width: 50px;
   padding-top: 10px;
 }
 .card{
@@ -249,10 +248,10 @@ display: flex;
   margin-right: 10px;
   width: 100%;
   max-width: 300px;
-  height: 300px;
+  /* height: 300px; */
 }
 .our_process .card{
-  height: 250px;
+  height: max-content;
   overflow: hidden;
 }
 .card :hover{
@@ -300,13 +299,17 @@ display: flex;
 .card-img-top img{
   width: 100%;
 }
+.industry_slide .card img{
+  width: 40%;
+  padding-top: 16px;
+}
 .card-body{
-  padding:  30px 15px;
+  padding:  10px 15px;
   /* border: 1px solid rgb(118, 118, 118); */
 }
 /* section whychoose */
 .choose img{
-  width: 30px;
+  width: 50px;
 }
 .choose h6{
   font-weight: 700;
@@ -316,6 +319,10 @@ display: flex;
 }
 .why_choose_img{
  padding: 50px;
+}
+.card-text:last-child{
+  overflow: hidden;
+  height: 75px;
 }
 /* section whychoose end */
 /* section start */
@@ -441,4 +448,16 @@ textarea.form-control:focus {
   .copyright p {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
+}
+.tab-content ul li{
+ display: block;
+}
+.tab-content svg{
+  width: 100%;
+}
+.tab-content img{
+  width: 100%;
+}
+.tab-box {
+ align-items: center;
 }
