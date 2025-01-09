@@ -180,6 +180,7 @@ border-radius: 100%;
    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   color: rgb(255, 255, 255);
   background-color: #004FF9;
+  transition: 0ms;
 }
 .features_box:hover p{
   color: white;
