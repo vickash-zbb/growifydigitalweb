@@ -232,7 +232,7 @@ align-items: center;
 padding: 21px 24px;
 width: 100%;
 height: auto;
-background: radial-gradient(157.88% 238.16% at 124.55% 54.93%, #004FF9 0%, #000000 100%);
+background:#004FF9;
 border-radius: 16px 16px 16px 16px;
 color: white;
 }
@@ -294,6 +294,7 @@ display: flex;
  }
  .tab-box {
   align-items: center;
+  padding: 24px 0;
  }
 /* section services */
 .our_process{
@@ -305,7 +306,7 @@ display: flex;
 }
 .card img{
   width: 50px;
-  padding-top: 10px;
+  padding: 10px 0px;
 }
 .card{
   background: none;
