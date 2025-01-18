@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-.faculty-glyphic-regular {
+/* .faculty-glyphic-regular {
   font-family: "Faculty Glyphic", serif;
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 body{
   padding: 0;
@@ -15,10 +15,10 @@ body{
    /* line-height: px; */
 }
 .display-5{
-  font-family: 'Faculty Glyphic';
+  /* font-family: 'Faculty Glyphic'; */
 }
 h3{
-  font-family: "Faculty Glyphic";
+  /* font-family: "Faculty Glyphic"; */
   font-size: 40px;
   text-transform: capitalize;
   font-weight: 700;
@@ -29,7 +29,7 @@ background-clip: text;
 text-fill-color: transparent;
 }
 h2{
-  font-family: "Faculty Glyphic";
+  /* font-family: "Faculty Glyphic"; */
   font-size: 40px;
   text-transform: capitalize;
   font-weight: 700;
